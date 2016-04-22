@@ -1,0 +1,12 @@
+body{
+  text-transform: uppercase;
+}
+h1{
+  font-weight: bold;
+}
+.gray{
+  color: #aba9a7;
+}
+.main_footer{
+  color: white;
+}
