@@ -10,3 +10,39 @@ h1{
 .main_footer{
   color: white;
 }
+.main_header>ul>li{
+  display: inline;
+  padding: 50px;
+}
+.description{
+  float: right;
+  width: 500px;
+  background-color: green;
+}
+.breadcrumbs>ul>li{
+  display: inline;
+  padding: 50px;
+}
+
+.big_picture{
+  float: left;
+  background-color: red;
+  width: 500px;
+}
+
+.small_picture_1{
+  clear: both;
+  float: left;
+  width: 200px;
+  background-color: green;
+}
+.small_picture_2{
+  float: left;
+  width: 200px;
+  background-color: green;
+}
+.small_picture_3{
+  float: left;
+  width: 200px;
+  background-color: green;
+}
