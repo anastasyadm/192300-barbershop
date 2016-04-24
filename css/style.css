@@ -7,17 +7,22 @@ h1{
 .gray{
   color: #aba9a7;
 }
-.main_footer{
-  color: white;
-}
 .main_header>ul>li{
   display: inline;
   padding: 50px;
 }
 .description{
+  margin-top: -500px;
   float: right;
-  width: 500px;
+  width: 600px;
   background-color: green;
+}
+.set{
+  clear: both;
+  margin-top: -350px;
+  float:right;
+  width: 600px;
+  background-color: blue;
 }
 .breadcrumbs>ul>li{
   display: inline;
@@ -44,5 +49,25 @@ h1{
 .small_picture_3{
   float: left;
   width: 200px;
+  background-color: green;
+}
+.main_footer{
+  clear: both;
+  color: white;
+  background-color: yellow;
+}
+.footer_contacts{
+  float: left;
+  width: 500px;
+  background-color: red;
+}
+.footer_social{
+  float: left;
+  width: 300px;
+  background-color: blue;
+}
+.footer_copyright{
+  float: left;
+  width: 500px;
   background-color: green;
 }
