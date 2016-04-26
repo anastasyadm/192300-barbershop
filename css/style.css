@@ -71,3 +71,68 @@ h1{
   width: 500px;
   background-color: green;
 }
+/*CSS для каталога*/
+.main_header>ul>li{
+  display: inline;
+  padding: 50px;
+}
+.breadcrumbs>ul>li{
+  display: inline;
+  padding: 50px;
+}
+.gray{
+  color: #aba9a7;
+}
+.product{
+  float: left;
+  width: 200px;
+  background-color: yellow;
+}
+.product_set_baxter{
+  float: left;
+  width: 250px;
+  padding-left: 50px;
+  background-color: red;
+}
+.product_conditioner_baxter{
+  float: left;
+  width: 250px;
+  padding-left: 50px;
+  background-color: blue;
+}
+.product_gel_Suavecito{
+  float: left;
+  width: 250px;
+  padding-left: 50px;
+  background-color: red;
+}
+.product_clay_AC{
+  float: left;
+  width: 250px;
+  padding-left: 50px;
+  background-color: blue;
+}
+.product_gel_AC{
+    float: left;
+    width:250px;
+    padding-left: 50px;
+    background-color: red;
+}
+.product_shaving_kit_baxter{
+  float: left;
+  width: 200px;
+  padding-left: 50px;
+  background-color: blue;
+}
+.pages{
+  background-color: green;
+  margin-top: 600px;
+}
+.pages>ul>li{
+  display: inline;
+  padding: 50px;
+  clear: both;
+}
+.main_footer{
+  clear: both;
+}
