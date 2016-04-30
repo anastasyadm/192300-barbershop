@@ -1,8 +1,13 @@
-body{
+.container{
   text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  width: 960px;
 }
-h1{
-  font-weight: bold;
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
 }
 .gray{
   color: #aba9a7;
@@ -72,58 +77,37 @@ h1{
   background-color: green;
 }
 /*CSS для каталога*/
-.main_header>ul>li{
-  display: inline;
-  padding: 50px;
+.breadcrumbs{
+  float: left;
+}
+h1{
+  text-align: left;
 }
 .breadcrumbs>ul>li{
   display: inline;
-  padding: 50px;
-}
-.gray{
-  color: #aba9a7;
 }
 .product{
+  text-align: left;
   float: left;
-  width: 200px;
+  width: 30%;
+  background-color: blue;
+}
+.products{
+  float: left;
+  width: 70%;
   background-color: yellow;
 }
-.product_set_baxter{
+
+.product_set_baxter, .product_conditioner_baxter, .product_gel_suavecito{
   float: left;
-  width: 250px;
-  padding-left: 50px;
-  background-color: red;
+  width: 33%;
+  height: 300px;
 }
-.product_conditioner_baxter{
+.product_clay_ac, .product_gel_ac, .product_shaving_kit_baxte{
   float: left;
-  width: 250px;
-  padding-left: 50px;
-  background-color: blue;
+  width: 33%;
 }
-.product_gel_Suavecito{
-  float: left;
-  width: 250px;
-  padding-left: 50px;
-  background-color: red;
-}
-.product_clay_AC{
-  float: left;
-  width: 250px;
-  padding-left: 50px;
-  background-color: blue;
-}
-.product_gel_AC{
-    float: left;
-    width:250px;
-    padding-left: 50px;
-    background-color: red;
-}
-.product_shaving_kit_baxter{
-  float: left;
-  width: 200px;
-  padding-left: 50px;
-  background-color: blue;
-}
+
 .pages{
   background-color: green;
   margin-top: 600px;
@@ -134,5 +118,22 @@ h1{
   clear: both;
 }
 .main_footer{
-  clear: both;
+  width: 960px;
+}
+.footer_contacts{
+  float: left;
+  width: 33.33%;
+}
+.footer_social{
+  float: left;
+  width: 33.33%;
+}
+.social_btn_vk, .social_btn_fb, .social_btn_inst{
+  float: right;;
+  background-color: #81b3d2;
+  width: 33.33%;
+}
+.footer_copyright{
+  float: right;
+  width: 33.33%;
 }
